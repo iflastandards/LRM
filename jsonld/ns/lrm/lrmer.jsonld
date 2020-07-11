@@ -2,7 +2,7 @@
     "@context": "http://iflastandards.info/ns/lrm/Contexts/elements_langmap.jsonld",
     "@graph": [
         {
-            "@id": "http://iflastandards.info/ns/lrm/lrmer",
+            "@id": "http://iflastandards.info/ns/lrm/lrmer/",
             "@type": "ElementSet",
             "title": {
                 "en": "LRMer (IFLA Library Reference Model Entity Relationship)"
@@ -43,7 +43,7 @@
                 ]
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -120,7 +120,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -162,7 +162,7 @@
                 "label": "Place"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -209,7 +209,7 @@
                 "label": "Place"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -286,7 +286,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -333,7 +333,7 @@
                 "label": "Time-span"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -372,7 +372,7 @@
                 "label": "Time-span"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -406,7 +406,7 @@
                 "label": "Res"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -440,7 +440,7 @@
                 "label": "Res"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -517,7 +517,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -564,7 +564,7 @@
                 "label": "Work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -611,7 +611,7 @@
                 "label": "Work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -688,7 +688,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -735,7 +735,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -782,7 +782,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -821,7 +821,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -855,7 +855,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -894,7 +894,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -933,7 +933,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -972,7 +972,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1011,7 +1011,7 @@
                 "label": "Expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1088,7 +1088,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1135,7 +1135,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1182,7 +1182,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1221,7 +1221,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1260,7 +1260,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1299,7 +1299,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1338,7 +1338,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1415,7 +1415,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1462,7 +1462,7 @@
                 "label": "Item"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1496,7 +1496,7 @@
                 "label": "Item"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1573,7 +1573,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1615,7 +1615,7 @@
                 "label": "Agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1649,7 +1649,7 @@
                 "label": "Agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1688,7 +1688,7 @@
                 "label": "Agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1729,7 +1729,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1771,7 +1771,7 @@
                 "label": "Person"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1817,7 +1817,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1902,7 +1902,7 @@
                 }
             ],
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1949,7 +1949,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -1996,7 +1996,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2035,7 +2035,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2074,7 +2074,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2113,7 +2113,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2152,7 +2152,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2191,7 +2191,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2230,7 +2230,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2269,7 +2269,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2308,7 +2308,7 @@
                 "label": "Res"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2359,7 +2359,7 @@
                 "label": "owns"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2418,7 +2418,7 @@
                 "label": "is owned by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2477,7 +2477,7 @@
                 "label": "modified"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2536,7 +2536,7 @@
                 "label": "was modified by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2595,7 +2595,7 @@
                 "label": "is subject of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2654,7 +2654,7 @@
                 "label": "has as subject"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2713,7 +2713,7 @@
                 "label": "is appellation of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2772,7 +2772,7 @@
                 "label": "has appellation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2831,7 +2831,7 @@
                 "label": "was assigned by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2890,7 +2890,7 @@
                 "label": "assigned"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -2943,7 +2943,7 @@
                 "label": "Nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3002,7 +3002,7 @@
                 "label": "is part nomen of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3061,7 +3061,7 @@
                 "label": "has part nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3120,7 +3120,7 @@
                 "label": "has derivation nomen"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3179,7 +3179,7 @@
                 "label": "is derivation nomen of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3238,7 +3238,7 @@
                 "label": "is part work of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3297,7 +3297,7 @@
                 "label": "has part work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3356,7 +3356,7 @@
                 "label": "succeeds work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3415,7 +3415,7 @@
                 "label": "precedes work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3474,7 +3474,7 @@
                 "label": "realizes"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3533,7 +3533,7 @@
                 "label": "is accompanied or complemented by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3597,7 +3597,7 @@
                 "label": "accompanies or complements"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3656,7 +3656,7 @@
                 "label": "is inspired by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3710,7 +3710,7 @@
                 "label": "is inspiration for"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3769,7 +3769,7 @@
                 "label": "was transformed into"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3828,7 +3828,7 @@
                 "label": "is a transformation of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3887,7 +3887,7 @@
                 "label": "is part expression of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -3946,7 +3946,7 @@
                 "label": "has part expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4005,7 +4005,7 @@
                 "label": "has derivation expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4064,7 +4064,7 @@
                 "label": "is derivation expression of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4123,7 +4123,7 @@
                 "label": "aggregated"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4182,7 +4182,7 @@
                 "label": "was aggregated by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4241,7 +4241,7 @@
                 "label": "is part manifestation of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4300,7 +4300,7 @@
                 "label": "has part manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4359,7 +4359,7 @@
                 "label": "is reproduction manifestation of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4418,7 +4418,7 @@
                 "label": "has reproduction manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4477,7 +4477,7 @@
                 "label": "is reproduction item of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4536,7 +4536,7 @@
                 "label": "has reproduction item"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4589,7 +4589,7 @@
                 "label": "Manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4648,7 +4648,7 @@
                 "label": "is realized through"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4707,7 +4707,7 @@
                 "label": "embodies"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4766,7 +4766,7 @@
                 "label": "has member"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4825,7 +4825,7 @@
                 "label": "is member of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4884,7 +4884,7 @@
                 "label": "is part collective agent of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -4943,7 +4943,7 @@
                 "label": "has part collective agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5002,7 +5002,7 @@
                 "label": "succeeds collective agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5061,7 +5061,7 @@
                 "label": "precedes collective agent"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5120,7 +5120,7 @@
                 "label": "is associated with place"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5179,7 +5179,7 @@
                 "label": "has association with place"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5238,7 +5238,7 @@
                 "label": "is part place of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5297,7 +5297,7 @@
                 "label": "has part place"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5356,7 +5356,7 @@
                 "label": "is associated with time-span"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5415,7 +5415,7 @@
                 "label": "has association with time-span"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5474,7 +5474,7 @@
                 "label": "is part time-span of"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5533,7 +5533,7 @@
                 "label": "has part time-span"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5592,7 +5592,7 @@
                 "label": "is embodied in"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5651,7 +5651,7 @@
                 "label": "exemplifies"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5710,7 +5710,7 @@
                 "label": "is exemplified by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5769,7 +5769,7 @@
                 "label": "created work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5828,7 +5828,7 @@
                 "label": "was created by work"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5887,7 +5887,7 @@
                 "label": "created expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -5946,7 +5946,7 @@
                 "label": "was created by expression"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6005,7 +6005,7 @@
                 "label": "created manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6064,7 +6064,7 @@
                 "label": "was created by manifestation"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6123,7 +6123,7 @@
                 "label": "manufactured"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6182,7 +6182,7 @@
                 "label": "was manufactured by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6241,7 +6241,7 @@
                 "label": "distributes"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },
@@ -6300,7 +6300,7 @@
                 "label": "is distributed by"
             },
             "isDefinedBy": {
-                "@id": "http://iflastandards.info/ns/lrm/lrmer",
+                "@id": "http://iflastandards.info/ns/lrm/lrmer/",
                 "url": "http://metadataregistry.org/schema/show/id/196.html",
                 "label": "LRMer (IFLA Library Reference Model Entity Relationship)"
             },

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF
-    xml:base="http://iflastandards.info/ns/lrm/lrmer"
+    xml:base="http://iflastandards.info/ns/lrm/lrmer/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:lrmer="http://iflastandards.info/ns/lrm/lrmer"
+    xmlns:lrmer="http://iflastandards.info/ns/lrm/lrmer/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -10,7 +10,7 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 
 <!-- Element Set: LRMer (IFLA Library Reference Model Entity Relationship) -->
-<rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmer">
+<rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmer/">
   <dc:title xml:lang="en">LRMer (IFLA Library Reference Model Entity Relationship)</dc:title>
   <foaf:homepage rdf:resource="https://www.ifla.org/publications/node/11412"/>
   <skos:note  xml:lang="en">IFLA LRM is a high-level conceptual reference model developed within an entity-relationship modelling framework. It is the consolidation of the separately developed IFLA conceptual models: FRBR, FRAD, FRSAD.
@@ -25,7 +25,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE6">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerAgent" />
@@ -45,7 +45,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Collective Agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE8">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Collective Agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerCollectiveAgent" />
@@ -59,7 +59,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerExpression" />
@@ -79,7 +79,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Item -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE5">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Item</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerItem" />
@@ -99,7 +99,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerManifestation" />
@@ -119,7 +119,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerNomen" />
@@ -139,7 +139,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Person -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE7">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Person</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerPerson" />
@@ -153,7 +153,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE10">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerPlace" />
@@ -173,7 +173,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Res -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Res</rdfs:label>
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
@@ -185,7 +185,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Time-span -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE11">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Time-span</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerTime-span" />
@@ -205,7 +205,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Class: Work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">Work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerWork" />
@@ -228,7 +228,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: accompanies or complements -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR20">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">accompanies or complements</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmeraccompaniesOrComplements" />
@@ -245,7 +245,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: aggregated -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR25i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">aggregated</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmeraggregated" />
@@ -261,7 +261,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: assigned -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR14">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">assigned</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerassigned" />
@@ -277,7 +277,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: created expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR6i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">created expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmercreatedExpression" />
@@ -293,7 +293,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: created manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR7i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">created manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmercreatedManifestation" />
@@ -309,7 +309,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: created work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR5i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">created work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmercreatedWork" />
@@ -325,7 +325,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: distributes -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR9i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">distributes</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerdistributes" />
@@ -341,7 +341,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: embodies -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR3i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">embodies</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerembodies" />
@@ -357,7 +357,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: exemplifies -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR4i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">exemplifies</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerexemplifies" />
@@ -373,7 +373,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has access conditions -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A5">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has access conditions</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasAccessConditions" />
@@ -386,7 +386,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has alternate -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR29">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has alternate</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasAlternate" />
@@ -401,7 +401,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has appellation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR13">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has appellation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasAppellation" />
@@ -417,7 +417,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has association with place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR33">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has association with place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasAssociationWithPlace" />
@@ -433,7 +433,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has association with time-span -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR35">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has association with time-span</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerHasAssociationWithTime-span" />
@@ -449,7 +449,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has as subject -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR12">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has as subject</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasAsSubject" />
@@ -465,7 +465,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has beginning -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE11A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has beginning</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasBeginning" />
@@ -478,7 +478,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has cartographic scale -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A5">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has cartographic scale</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCartographicScale" />
@@ -491,7 +491,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of carrier -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of carrier</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfCarrier" />
@@ -505,7 +505,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfExpression" />
@@ -519,7 +519,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfNomen" />
@@ -533,7 +533,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE10A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfPlace" />
@@ -546,7 +546,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of res -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE1A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of res</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfRes" />
@@ -558,7 +558,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has category of work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE2A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has category of work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasCategoryOfWork" />
@@ -572,7 +572,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has contact information -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE6A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has contact information</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasContactInformation" />
@@ -584,7 +584,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has context of use -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A5">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has context of use</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasContextOfUse" />
@@ -597,7 +597,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has derivation expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR24i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has derivation expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasDerivationExpression" />
@@ -613,7 +613,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has derivation nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR17i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has derivation nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasDerivationNomen" />
@@ -629,7 +629,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has ending -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE11A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has ending</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasEnding" />
@@ -642,7 +642,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has extent of expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has extent of expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasExtentOfExpression" />
@@ -655,7 +655,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has extent of manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has extent of manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasExtentOfManifestation" />
@@ -668,7 +668,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has field of activity -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE6A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has field of activity</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasFieldOfActivity" />
@@ -680,7 +680,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has intended audience of expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has intended audience of expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfExpression" />
@@ -693,7 +693,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has intended audience of manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has intended audience of manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfManifestation" />
@@ -706,7 +706,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has intended audience of nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A4">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has intended audience of nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfNomen" />
@@ -719,7 +719,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has key -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A7">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has key</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasKey" />
@@ -732,7 +732,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has language of agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE6A3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has language of agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasLanguageOfAgent" />
@@ -745,7 +745,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has language of expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A6">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has language of expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasLanguageOfExpression" />
@@ -758,7 +758,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has language of nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A7">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has language of nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasLanguageOfNomen" />
@@ -771,7 +771,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has location of item -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE5A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has location of item</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasLocationOfItem" />
@@ -784,7 +784,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has location of place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE10A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has location of place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasLocationOfPlace" />
@@ -797,7 +797,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has manifestation statement -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A4">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has manifestation statement</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasManifestationStatement" />
@@ -810,7 +810,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has medium of performance -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A8">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has medium of performance</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasMediumOfPerformance" />
@@ -823,7 +823,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has member -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR30i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has member</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasMember" />
@@ -839,7 +839,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has nomen string -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has nomen string</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasNomenString" />
@@ -852,7 +852,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has note -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE1A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has note</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasNote" />
@@ -864,7 +864,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part collective agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR31">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part collective agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartCollectiveAgent" />
@@ -880,7 +880,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR23">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartExpression" />
@@ -896,7 +896,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR26">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartManifestation" />
@@ -912,7 +912,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part nomen -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR16">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part nomen</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartNomen" />
@@ -928,7 +928,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR34">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartPlace" />
@@ -944,7 +944,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part time-span -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR36">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part time-span</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartTime-span" />
@@ -960,7 +960,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has part work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR18">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has part work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasPartWork" />
@@ -976,7 +976,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has profession or occupation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE7A1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has profession or occupation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasProfessionOrOccupation" />
@@ -989,7 +989,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has reference source -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A6">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has reference source</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasReferenceSource" />
@@ -1002,7 +1002,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has representative expression attribute -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE2A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has representative expression attribute</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasRepresentativeExpressionAttribute" />
@@ -1015,7 +1015,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has reproduction item -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR28">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has reproduction item</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasReproductionItem" />
@@ -1031,7 +1031,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has reproduction manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR27">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has reproduction manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasReproductionManifestation" />
@@ -1047,7 +1047,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has scheme -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has scheme</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasScheme" />
@@ -1060,7 +1060,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has script -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A8">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has script</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasScript" />
@@ -1073,7 +1073,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has script conversion -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE9A9">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has script conversion</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasScriptConversion" />
@@ -1086,7 +1086,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has use rights of the expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE3A4">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has use rights of the expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheExpression" />
@@ -1098,7 +1098,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has use rights of the item -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE5A2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has use rights of the item</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheItem" />
@@ -1110,7 +1110,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: has use rights of the manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerE4A6">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">has use rights of the manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheManifestation" />
@@ -1123,7 +1123,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is accompanied or complemented by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR20i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is accompanied or complemented by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisAccompaniedOrComplementedBy" />
@@ -1140,7 +1140,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is appellation of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR13i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is appellation of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisAppellationOf" />
@@ -1156,7 +1156,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is associated with place -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR33i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is associated with place</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisAssociatedWithPlace" />
@@ -1172,7 +1172,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is associated with res -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR1">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is associated with res</rdfs:label>
   <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
@@ -1186,7 +1186,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is associated with time-span -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR35i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is associated with time-span</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerIsAssociatedWithTime-span" />
@@ -1202,7 +1202,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is a transformation of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR22">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is a transformation of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisATransformationOf" />
@@ -1218,7 +1218,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is derivation expression of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR24">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is derivation expression of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisDerivationExpressionOf" />
@@ -1234,7 +1234,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is derivation nomen of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR17">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is derivation nomen of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisDerivationNomenOf" />
@@ -1250,7 +1250,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is distributed by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR9">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is distributed by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisDistributedBy" />
@@ -1266,7 +1266,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is embodied in -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR3">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is embodied in</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisEmbodiedIn" />
@@ -1282,7 +1282,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is equivalent to -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR15">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is equivalent to</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisEquivalentTo" />
@@ -1297,7 +1297,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is exemplified by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR4">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is exemplified by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisExemplifiedBy" />
@@ -1313,7 +1313,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is inspiration for -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR21">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is inspiration for</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisInspirationFor" />
@@ -1328,7 +1328,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is inspired by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR21i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is inspired by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisInspiredBy" />
@@ -1343,7 +1343,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is member of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR30">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is member of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisMemberOf" />
@@ -1359,7 +1359,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is owned by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR10">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is owned by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisOwnedBy" />
@@ -1375,7 +1375,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part collective agent of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR31i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part collective agent of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartCollectiveAgentOf" />
@@ -1391,7 +1391,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part expression of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR23i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part expression of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartExpressionOf" />
@@ -1407,7 +1407,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part manifestation of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR26i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part manifestation of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartManifestationOf" />
@@ -1423,7 +1423,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part nomen of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR16i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part nomen of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartNomenOf" />
@@ -1439,7 +1439,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part place of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR34i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part place of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartPlaceOf" />
@@ -1455,7 +1455,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part time-span of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR36i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part time-span of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerIsPartTime-spanOf" />
@@ -1471,7 +1471,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is part work of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR18i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is part work of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisPartWorkOf" />
@@ -1487,7 +1487,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is realized through -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR2">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is realized through</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisRealizedThrough" />
@@ -1503,7 +1503,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is reproduction item of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR28i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is reproduction item of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisReproductionItemOf" />
@@ -1519,7 +1519,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is reproduction manifestation of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR27i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is reproduction manifestation of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisReproductionManifestationOf" />
@@ -1535,7 +1535,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: is subject of -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR12i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">is subject of</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerisSubjectOf" />
@@ -1551,7 +1551,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: manufactured -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR8i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">manufactured</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmermanufactured" />
@@ -1567,7 +1567,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: modified -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR11i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">modified</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmermodified" />
@@ -1583,7 +1583,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: owns -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR10i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">owns</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerowns" />
@@ -1599,7 +1599,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: precedes collective agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR32">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">precedes collective agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerprecedesCollectiveAgent" />
@@ -1615,7 +1615,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: precedes work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR19">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">precedes work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerprecedesWork" />
@@ -1631,7 +1631,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: realizes -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR2i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">realizes</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerrealizes" />
@@ -1647,7 +1647,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: succeeds collective agent -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR32i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">succeeds collective agent</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmersucceedsCollectiveAgent" />
@@ -1663,7 +1663,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: succeeds work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR19i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">succeeds work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmersucceedsWork" />
@@ -1679,7 +1679,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was aggregated by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR25">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was aggregated by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasAggregatedBy" />
@@ -1695,7 +1695,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was assigned by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR14i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was assigned by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasAssignedBy" />
@@ -1711,7 +1711,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was created by expression -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR6">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was created by expression</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasCreatedByExpression" />
@@ -1727,7 +1727,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was created by manifestation -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR7">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was created by manifestation</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasCreatedByManifestation" />
@@ -1743,7 +1743,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was created by work -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR5">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was created by work</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasCreatedByWork" />
@@ -1759,7 +1759,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was manufactured by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR8">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was manufactured by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasManufacturedBy" />
@@ -1775,7 +1775,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was modified by -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR11">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was modified by</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasModifiedBy" />
@@ -1791,7 +1791,7 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 <!-- Property: was transformed into -->
 <rdf:Description rdf:about="http://iflastandards.info/ns/lrm/lrmerR22i">
-  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer" />
+  <rdfs:isDefinedBy rdf:resource="http://iflastandards.info/ns/lrm/lrmer/" />
   <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001" />
   <rdfs:label xml:lang="en">was transformed into</rdfs:label>
   <reg:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmerwasTransformedInto" />

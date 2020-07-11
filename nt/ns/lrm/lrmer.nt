@@ -1,7 +1,7 @@
-<http://iflastandards.info/ns/lrm/lrmer> <http://purl.org/dc/elements/1.1/title> "LRMer (IFLA Library Reference Model Entity Relationship)"@en .
-<http://iflastandards.info/ns/lrm/lrmer> <http://xmlns.com/foaf/0.1/homepage> <https://www.ifla.org/publications/node/11412> .
-<http://iflastandards.info/ns/lrm/lrmer> <http://www.w3.org/2004/02/skos/core#note> "IFLA LRM is a high-level conceptual reference model developed within an entity-relationship modelling framework. It is the consolidation of the separately developed IFLA conceptual models: FRBR, FRAD, FRSAD.\n\nIFLA LRM was developed to resolve inconsistencies between the three separate models. Every user task, entity, attribute and relationship from the original three models was examined, definitions had to be revised, but also some remodeling was required in order to develop a meaningful consolidation. The result is a single, streamlined, and logically consistent model that covers all aspects of bibliographic data and that at the same time brings the modelling up-to-date with current conceptual modelling practices.\n\nIFLA LRM was designed to be used in linked data environments and to support and promote the use of bibliographic data in linked data environments.\n"@en .
-<http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmer/> <http://purl.org/dc/elements/1.1/title> "LRMer (IFLA Library Reference Model Entity Relationship)"@en .
+<http://iflastandards.info/ns/lrm/lrmer/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ifla.org/publications/node/11412> .
+<http://iflastandards.info/ns/lrm/lrmer/> <http://www.w3.org/2004/02/skos/core#note> "IFLA LRM is a high-level conceptual reference model developed within an entity-relationship modelling framework. It is the consolidation of the separately developed IFLA conceptual models: FRBR, FRAD, FRSAD.\n\nIFLA LRM was developed to resolve inconsistencies between the three separate models. Every user task, entity, attribute and relationship from the original three models was examined, definitions had to be revised, but also some remodeling was required in order to develop a meaningful consolidation. The result is a single, streamlined, and logically consistent model that covers all aspects of bibliographic data and that at the same time brings the modelling up-to-date with current conceptual modelling practices.\n\nIFLA LRM was designed to be used in linked data environments and to support and promote the use of bibliographic data in linked data environments.\n"@en .
+<http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerAgent> .
@@ -17,7 +17,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE6> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://www.w3.org/2000/01/rdf-schema#label> "Collective Agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerCollectiveAgent> .
@@ -27,7 +27,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://metadataregistry.org/uri/profile/regap/name> "CollectiveAgent" .
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerE8> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE7> .
-<http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2000/01/rdf-schema#label> "Expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerExpression> .
@@ -43,7 +43,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE3> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@en .
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerItem> .
@@ -59,7 +59,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE5> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2000/01/rdf-schema#label> "Manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerManifestation> .
@@ -75,7 +75,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE4> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2000/01/rdf-schema#label> "Nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerNomen> .
@@ -91,7 +91,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE9> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerPerson> .
@@ -101,7 +101,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://metadataregistry.org/uri/profile/regap/name> "Person" .
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerE7> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE8> .
-<http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerPlace> .
@@ -117,7 +117,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE10> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/2000/01/rdf-schema#label> "Res"@en .
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -125,7 +125,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerRes> .
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/2004/02/skos/core#definition> "Any entity in the universe of discourse"@en .
 <http://iflastandards.info/ns/lrm/lrmerE1> <http://www.w3.org/2000/01/rdf-schema#comment> "Res (\u201Cthing\u201D in Latin) is the top entity in the model. Res includes both material or physical things and concepts. Everything considered relevant to the bibliographic universe, which is the universe of discourse in this case, is included. Res is a superclass of all the other entities that are explicitly defined, as well as of any other entities not specifically labelled."@en .
-<http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2000/01/rdf-schema#label> "Time-span"@en .
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerTime-span> .
@@ -141,7 +141,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE11> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
-<http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2000/01/rdf-schema#label> "Work"@en .
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerWork> .
@@ -157,7 +157,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE2> <http://www.w3.org/2002/07/owl#disjointWith> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2000/01/rdf-schema#label> "accompanies or complements"@en .
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmeraccompaniesOrComplements> .
@@ -170,7 +170,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR20i> .
 <http://iflastandards.info/ns/lrm/lrmerR20> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2000/01/rdf-schema#label> "aggregated"@en .
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmeraggregated> .
@@ -182,7 +182,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR25> .
 <http://iflastandards.info/ns/lrm/lrmerR25i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2000/01/rdf-schema#label> "assigned"@en .
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerassigned> .
@@ -194,7 +194,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR14i> .
 <http://iflastandards.info/ns/lrm/lrmerR14> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2000/01/rdf-schema#label> "created expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmercreatedExpression> .
@@ -206,7 +206,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR6> .
 <http://iflastandards.info/ns/lrm/lrmerR6i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2000/01/rdf-schema#label> "created manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmercreatedManifestation> .
@@ -218,7 +218,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR7> .
 <http://iflastandards.info/ns/lrm/lrmerR7i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2000/01/rdf-schema#label> "created work"@en .
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmercreatedWork> .
@@ -230,7 +230,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR5> .
 <http://iflastandards.info/ns/lrm/lrmerR5i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2000/01/rdf-schema#label> "distributes"@en .
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerdistributes> .
@@ -242,7 +242,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR9> .
 <http://iflastandards.info/ns/lrm/lrmerR9i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2000/01/rdf-schema#label> "embodies"@en .
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerembodies> .
@@ -254,7 +254,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR3> .
 <http://iflastandards.info/ns/lrm/lrmerR3i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2000/01/rdf-schema#label> "exemplifies"@en .
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerexemplifies> .
@@ -266,7 +266,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR4> .
 <http://iflastandards.info/ns/lrm/lrmerR4i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE4A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://www.w3.org/2000/01/rdf-schema#label> "has access conditions"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasAccessConditions> .
@@ -275,7 +275,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://metadataregistry.org/uri/profile/regap/name> "hasAccessConditions" .
 <http://iflastandards.info/ns/lrm/lrmerE4A5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
-<http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#label> "has alternate"@en .
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasAlternate> .
@@ -286,7 +286,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR29> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2000/01/rdf-schema#label> "has appellation"@en .
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasAppellation> .
@@ -298,7 +298,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR13i> .
 <http://iflastandards.info/ns/lrm/lrmerR13> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2000/01/rdf-schema#label> "has association with place"@en .
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasAssociationWithPlace> .
@@ -310,7 +310,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR33i> .
 <http://iflastandards.info/ns/lrm/lrmerR33> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2000/01/rdf-schema#label> "has association with time-span"@en .
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerHasAssociationWithTime-span> .
@@ -322,7 +322,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE11> .
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR35i> .
 <http://iflastandards.info/ns/lrm/lrmerR35> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2000/01/rdf-schema#label> "has as subject"@en .
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasAsSubject> .
@@ -334,7 +334,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE1> .
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR12i> .
 <http://iflastandards.info/ns/lrm/lrmerR12> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE11A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE11A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://www.w3.org/2000/01/rdf-schema#label> "has beginning"@en .
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasBeginning> .
@@ -343,7 +343,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://metadataregistry.org/uri/profile/regap/name> "hasBeginning" .
 <http://iflastandards.info/ns/lrm/lrmerE11A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE3A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://www.w3.org/2000/01/rdf-schema#label> "has cartographic scale"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCartographicScale> .
@@ -352,7 +352,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://metadataregistry.org/uri/profile/regap/name> "hasCartographicScale" .
 <http://iflastandards.info/ns/lrm/lrmerE3A5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE4A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of carrier"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfCarrier> .
@@ -362,7 +362,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfCarrier" .
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerE4A1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerE1A1> .
-<http://iflastandards.info/ns/lrm/lrmerE3A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfExpression> .
@@ -372,7 +372,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfExpression" .
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerE3A1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerE1A1> .
-<http://iflastandards.info/ns/lrm/lrmerE9A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfNomen> .
@@ -382,7 +382,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfNomen" .
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerE9A1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerE1A1> .
-<http://iflastandards.info/ns/lrm/lrmerE10A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE10A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of place"@en .
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfPlace> .
@@ -391,7 +391,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfPlace" .
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerE10A1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerE1A1> .
-<http://iflastandards.info/ns/lrm/lrmerE1A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE1A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of res"@en .
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfRes> .
@@ -399,7 +399,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfRes" .
 <http://iflastandards.info/ns/lrm/lrmerE1A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE1> .
-<http://iflastandards.info/ns/lrm/lrmerE2A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE2A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://www.w3.org/2000/01/rdf-schema#label> "has category of work"@en .
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasCategoryOfWork> .
@@ -409,7 +409,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://metadataregistry.org/uri/profile/regap/name> "hasCategoryOfWork" .
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerE2A1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerE1A1> .
-<http://iflastandards.info/ns/lrm/lrmerE6A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE6A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://www.w3.org/2000/01/rdf-schema#label> "has contact information"@en .
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasContactInformation> .
@@ -417,7 +417,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://metadataregistry.org/uri/profile/regap/name> "hasContactInformation" .
 <http://iflastandards.info/ns/lrm/lrmerE6A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE6> .
-<http://iflastandards.info/ns/lrm/lrmerE9A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://www.w3.org/2000/01/rdf-schema#label> "has context of use"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasContextOfUse> .
@@ -426,7 +426,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://metadataregistry.org/uri/profile/regap/name> "hasContextOfUse" .
 <http://iflastandards.info/ns/lrm/lrmerE9A5> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2000/01/rdf-schema#label> "has derivation expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasDerivationExpression> .
@@ -438,7 +438,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR24> .
 <http://iflastandards.info/ns/lrm/lrmerR24i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2000/01/rdf-schema#label> "has derivation nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasDerivationNomen> .
@@ -450,7 +450,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR17> .
 <http://iflastandards.info/ns/lrm/lrmerR17i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE11A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE11A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://www.w3.org/2000/01/rdf-schema#label> "has ending"@en .
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasEnding> .
@@ -459,7 +459,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://metadataregistry.org/uri/profile/regap/name> "hasEnding" .
 <http://iflastandards.info/ns/lrm/lrmerE11A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE11> .
-<http://iflastandards.info/ns/lrm/lrmerE3A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://www.w3.org/2000/01/rdf-schema#label> "has extent of expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasExtentOfExpression> .
@@ -468,7 +468,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://metadataregistry.org/uri/profile/regap/name> "hasExtentOfExpression" .
 <http://iflastandards.info/ns/lrm/lrmerE3A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE4A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://www.w3.org/2000/01/rdf-schema#label> "has extent of manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasExtentOfManifestation> .
@@ -477,7 +477,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://metadataregistry.org/uri/profile/regap/name> "hasExtentOfManifestation" .
 <http://iflastandards.info/ns/lrm/lrmerE4A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
-<http://iflastandards.info/ns/lrm/lrmerE6A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE6A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://www.w3.org/2000/01/rdf-schema#label> "has field of activity"@en .
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasFieldOfActivity> .
@@ -485,7 +485,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://metadataregistry.org/uri/profile/regap/name> "hasFieldOfActivity" .
 <http://iflastandards.info/ns/lrm/lrmerE6A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE6> .
-<http://iflastandards.info/ns/lrm/lrmerE3A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://www.w3.org/2000/01/rdf-schema#label> "has intended audience of expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfExpression> .
@@ -494,7 +494,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://metadataregistry.org/uri/profile/regap/name> "hasIntendedAudienceOfExpression" .
 <http://iflastandards.info/ns/lrm/lrmerE3A3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE4A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://www.w3.org/2000/01/rdf-schema#label> "has intended audience of manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfManifestation> .
@@ -503,7 +503,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://metadataregistry.org/uri/profile/regap/name> "hasIntendedAudienceOfManifestation" .
 <http://iflastandards.info/ns/lrm/lrmerE4A3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
-<http://iflastandards.info/ns/lrm/lrmerE9A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://www.w3.org/2000/01/rdf-schema#label> "has intended audience of nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasIntendedAudienceOfNomen> .
@@ -512,7 +512,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://metadataregistry.org/uri/profile/regap/name> "hasIntendedAudienceOfNomen" .
 <http://iflastandards.info/ns/lrm/lrmerE9A4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE3A7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://www.w3.org/2000/01/rdf-schema#label> "has key"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasKey> .
@@ -521,7 +521,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://metadataregistry.org/uri/profile/regap/name> "hasKey" .
 <http://iflastandards.info/ns/lrm/lrmerE3A7> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE6A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE6A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://www.w3.org/2000/01/rdf-schema#label> "has language of agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasLanguageOfAgent> .
@@ -530,7 +530,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfAgent" .
 <http://iflastandards.info/ns/lrm/lrmerE6A3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE6> .
-<http://iflastandards.info/ns/lrm/lrmerE3A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://www.w3.org/2000/01/rdf-schema#label> "has language of expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasLanguageOfExpression> .
@@ -539,7 +539,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfExpression" .
 <http://iflastandards.info/ns/lrm/lrmerE3A6> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE9A7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://www.w3.org/2000/01/rdf-schema#label> "has language of nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasLanguageOfNomen> .
@@ -548,7 +548,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://metadataregistry.org/uri/profile/regap/name> "hasLanguageOfNomen" .
 <http://iflastandards.info/ns/lrm/lrmerE9A7> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE5A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE5A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://www.w3.org/2000/01/rdf-schema#label> "has location of item"@en .
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasLocationOfItem> .
@@ -557,7 +557,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://metadataregistry.org/uri/profile/regap/name> "hasLocationOfItem" .
 <http://iflastandards.info/ns/lrm/lrmerE5A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE5> .
-<http://iflastandards.info/ns/lrm/lrmerE10A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE10A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://www.w3.org/2000/01/rdf-schema#label> "has location of place"@en .
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasLocationOfPlace> .
@@ -566,7 +566,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://metadataregistry.org/uri/profile/regap/name> "hasLocationOfPlace" .
 <http://iflastandards.info/ns/lrm/lrmerE10A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE10> .
-<http://iflastandards.info/ns/lrm/lrmerE4A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://www.w3.org/2000/01/rdf-schema#label> "has manifestation statement"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasManifestationStatement> .
@@ -575,7 +575,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://metadataregistry.org/uri/profile/regap/name> "hasManifestationStatement" .
 <http://iflastandards.info/ns/lrm/lrmerE4A4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
-<http://iflastandards.info/ns/lrm/lrmerE3A8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://www.w3.org/2000/01/rdf-schema#label> "has medium of performance"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasMediumOfPerformance> .
@@ -584,7 +584,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://metadataregistry.org/uri/profile/regap/name> "hasMediumOfPerformance" .
 <http://iflastandards.info/ns/lrm/lrmerE3A8> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasMember> .
@@ -596,7 +596,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR30> .
 <http://iflastandards.info/ns/lrm/lrmerR30i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE9A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://www.w3.org/2000/01/rdf-schema#label> "has nomen string"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasNomenString> .
@@ -605,7 +605,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://metadataregistry.org/uri/profile/regap/name> "hasNomenString" .
 <http://iflastandards.info/ns/lrm/lrmerE9A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE1A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE1A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://www.w3.org/2000/01/rdf-schema#label> "has note"@en .
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasNote> .
@@ -613,7 +613,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://metadataregistry.org/uri/profile/regap/name> "hasNote" .
 <http://iflastandards.info/ns/lrm/lrmerE1A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE1> .
-<http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2000/01/rdf-schema#label> "has part collective agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartCollectiveAgent> .
@@ -625,7 +625,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE8> .
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR31i> .
 <http://iflastandards.info/ns/lrm/lrmerR31> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2000/01/rdf-schema#label> "has part expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartExpression> .
@@ -637,7 +637,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR23i> .
 <http://iflastandards.info/ns/lrm/lrmerR23> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2000/01/rdf-schema#label> "has part manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartManifestation> .
@@ -649,7 +649,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR26i> .
 <http://iflastandards.info/ns/lrm/lrmerR26> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2000/01/rdf-schema#label> "has part nomen"@en .
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartNomen> .
@@ -661,7 +661,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR16i> .
 <http://iflastandards.info/ns/lrm/lrmerR16> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2000/01/rdf-schema#label> "has part place"@en .
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartPlace> .
@@ -673,7 +673,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR34i> .
 <http://iflastandards.info/ns/lrm/lrmerR34> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2000/01/rdf-schema#label> "has part time-span"@en .
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartTime-span> .
@@ -685,7 +685,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE11> .
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR36i> .
 <http://iflastandards.info/ns/lrm/lrmerR36> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2000/01/rdf-schema#label> "has part work"@en .
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasPartWork> .
@@ -697,7 +697,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR18i> .
 <http://iflastandards.info/ns/lrm/lrmerR18> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE7A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE7A1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://www.w3.org/2000/01/rdf-schema#label> "has profession or occupation"@en .
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasProfessionOrOccupation> .
@@ -706,7 +706,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://metadataregistry.org/uri/profile/regap/name> "hasProfessionOrOccupation" .
 <http://iflastandards.info/ns/lrm/lrmerE7A1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE7> .
-<http://iflastandards.info/ns/lrm/lrmerE9A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://www.w3.org/2000/01/rdf-schema#label> "has reference source"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasReferenceSource> .
@@ -715,7 +715,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://metadataregistry.org/uri/profile/regap/name> "hasReferenceSource" .
 <http://iflastandards.info/ns/lrm/lrmerE9A6> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE2A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE2A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://www.w3.org/2000/01/rdf-schema#label> "has representative expression attribute"@en .
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasRepresentativeExpressionAttribute> .
@@ -724,7 +724,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://metadataregistry.org/uri/profile/regap/name> "hasRepresentativeExpressionAttribute" .
 <http://iflastandards.info/ns/lrm/lrmerE2A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE2> .
-<http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2000/01/rdf-schema#label> "has reproduction item"@en .
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasReproductionItem> .
@@ -736,7 +736,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR28i> .
 <http://iflastandards.info/ns/lrm/lrmerR28> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2000/01/rdf-schema#label> "has reproduction manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasReproductionManifestation> .
@@ -748,7 +748,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR27i> .
 <http://iflastandards.info/ns/lrm/lrmerR27> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerE9A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://www.w3.org/2000/01/rdf-schema#label> "has scheme"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasScheme> .
@@ -757,7 +757,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://metadataregistry.org/uri/profile/regap/name> "hasScheme" .
 <http://iflastandards.info/ns/lrm/lrmerE9A3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE9A8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://www.w3.org/2000/01/rdf-schema#label> "has script"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasScript> .
@@ -766,7 +766,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://metadataregistry.org/uri/profile/regap/name> "hasScript" .
 <http://iflastandards.info/ns/lrm/lrmerE9A8> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE9A9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE9A9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://www.w3.org/2000/01/rdf-schema#label> "has script conversion"@en .
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasScriptConversion> .
@@ -775,7 +775,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://metadataregistry.org/uri/profile/regap/name> "hasScriptConversion" .
 <http://iflastandards.info/ns/lrm/lrmerE9A9> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
-<http://iflastandards.info/ns/lrm/lrmerE3A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE3A4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://www.w3.org/2000/01/rdf-schema#label> "has use rights of the expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheExpression> .
@@ -783,7 +783,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://metadataregistry.org/uri/profile/regap/name> "hasUseRightsOfTheExpression" .
 <http://iflastandards.info/ns/lrm/lrmerE3A4> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE3> .
-<http://iflastandards.info/ns/lrm/lrmerE5A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE5A2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://www.w3.org/2000/01/rdf-schema#label> "has use rights of the item"@en .
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheItem> .
@@ -791,7 +791,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://metadataregistry.org/uri/profile/regap/name> "hasUseRightsOfTheItem" .
 <http://iflastandards.info/ns/lrm/lrmerE5A2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE5> .
-<http://iflastandards.info/ns/lrm/lrmerE4A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerE4A6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://www.w3.org/2000/01/rdf-schema#label> "has use rights of the manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerhasUseRightsOfTheManifestation> .
@@ -800,7 +800,7 @@
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://metadataregistry.org/uri/profile/regap/name> "hasUseRightsOfTheManifestation" .
 <http://iflastandards.info/ns/lrm/lrmerE4A6> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE4> .
-<http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2000/01/rdf-schema#label> "is accompanied or complemented by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisAccompaniedOrComplementedBy> .
@@ -813,7 +813,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR20> .
 <http://iflastandards.info/ns/lrm/lrmerR20i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2000/01/rdf-schema#label> "is appellation of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisAppellationOf> .
@@ -825,7 +825,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE1> .
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR13> .
 <http://iflastandards.info/ns/lrm/lrmerR13i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with place"@en .
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisAssociatedWithPlace> .
@@ -837,7 +837,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE1> .
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR33> .
 <http://iflastandards.info/ns/lrm/lrmerR33i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with res"@en .
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -847,7 +847,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a general relationship valid for all entities in the bibliographic universe. In general, specific refinements would be defined to carry more precise semantics."@en .
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE1> .
 <http://iflastandards.info/ns/lrm/lrmerR1> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE1> .
-<http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2000/01/rdf-schema#label> "is associated with time-span"@en .
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerIsAssociatedWithTime-span> .
@@ -859,7 +859,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE1> .
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR35> .
 <http://iflastandards.info/ns/lrm/lrmerR35i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2000/01/rdf-schema#label> "is a transformation of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisATransformationOf> .
@@ -871,7 +871,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR22i> .
 <http://iflastandards.info/ns/lrm/lrmerR22> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2000/01/rdf-schema#label> "is derivation expression of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisDerivationExpressionOf> .
@@ -883,7 +883,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR24i> .
 <http://iflastandards.info/ns/lrm/lrmerR24> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2000/01/rdf-schema#label> "is derivation nomen of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisDerivationNomenOf> .
@@ -895,7 +895,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR17i> .
 <http://iflastandards.info/ns/lrm/lrmerR17> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2000/01/rdf-schema#label> "is distributed by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisDistributedBy> .
@@ -907,7 +907,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR9i> .
 <http://iflastandards.info/ns/lrm/lrmerR9> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2000/01/rdf-schema#label> "is embodied in"@en .
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisEmbodiedIn> .
@@ -919,7 +919,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR3i> .
 <http://iflastandards.info/ns/lrm/lrmerR3> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#label> "is equivalent to"@en .
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisEquivalentTo> .
@@ -930,7 +930,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#domain> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR15> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2000/01/rdf-schema#label> "is exemplified by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisExemplifiedBy> .
@@ -942,7 +942,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE5> .
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR4i> .
 <http://iflastandards.info/ns/lrm/lrmerR4> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2000/01/rdf-schema#label> "is inspiration for"@en .
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisInspirationFor> .
@@ -953,7 +953,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR21i> .
 <http://iflastandards.info/ns/lrm/lrmerR21> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2000/01/rdf-schema#label> "is inspired by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisInspiredBy> .
@@ -964,7 +964,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR21> .
 <http://iflastandards.info/ns/lrm/lrmerR21i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2000/01/rdf-schema#label> "is member of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisMemberOf> .
@@ -976,7 +976,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE8> .
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR30i> .
 <http://iflastandards.info/ns/lrm/lrmerR30> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2000/01/rdf-schema#label> "is owned by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisOwnedBy> .
@@ -988,7 +988,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR10i> .
 <http://iflastandards.info/ns/lrm/lrmerR10> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2000/01/rdf-schema#label> "is part collective agent of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartCollectiveAgentOf> .
@@ -1000,7 +1000,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE8> .
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR31> .
 <http://iflastandards.info/ns/lrm/lrmerR31i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2000/01/rdf-schema#label> "is part expression of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartExpressionOf> .
@@ -1012,7 +1012,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR23> .
 <http://iflastandards.info/ns/lrm/lrmerR23i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2000/01/rdf-schema#label> "is part manifestation of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartManifestationOf> .
@@ -1024,7 +1024,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR26> .
 <http://iflastandards.info/ns/lrm/lrmerR26i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2000/01/rdf-schema#label> "is part nomen of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartNomenOf> .
@@ -1036,7 +1036,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE9> .
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR16> .
 <http://iflastandards.info/ns/lrm/lrmerR16i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2000/01/rdf-schema#label> "is part place of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartPlaceOf> .
@@ -1048,7 +1048,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE10> .
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR34> .
 <http://iflastandards.info/ns/lrm/lrmerR34i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2000/01/rdf-schema#label> "is part time-span of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerIsPartTime-spanOf> .
@@ -1060,7 +1060,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE11> .
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR36> .
 <http://iflastandards.info/ns/lrm/lrmerR36i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2000/01/rdf-schema#label> "is part work of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisPartWorkOf> .
@@ -1072,7 +1072,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR18> .
 <http://iflastandards.info/ns/lrm/lrmerR18i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2000/01/rdf-schema#label> "is realized through"@en .
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisRealizedThrough> .
@@ -1084,7 +1084,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR2i> .
 <http://iflastandards.info/ns/lrm/lrmerR2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2000/01/rdf-schema#label> "is reproduction item of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisReproductionItemOf> .
@@ -1096,7 +1096,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE5> .
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR28> .
 <http://iflastandards.info/ns/lrm/lrmerR28i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2000/01/rdf-schema#label> "is reproduction manifestation of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisReproductionManifestationOf> .
@@ -1108,7 +1108,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR27> .
 <http://iflastandards.info/ns/lrm/lrmerR27i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2000/01/rdf-schema#label> "is subject of"@en .
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerisSubjectOf> .
@@ -1120,7 +1120,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR12> .
 <http://iflastandards.info/ns/lrm/lrmerR12i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured"@en .
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmermanufactured> .
@@ -1132,7 +1132,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE4> .
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR8> .
 <http://iflastandards.info/ns/lrm/lrmerR8i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2000/01/rdf-schema#label> "modified"@en .
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmermodified> .
@@ -1144,7 +1144,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE5> .
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR11> .
 <http://iflastandards.info/ns/lrm/lrmerR11i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2000/01/rdf-schema#label> "owns"@en .
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerowns> .
@@ -1156,7 +1156,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE5> .
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR10> .
 <http://iflastandards.info/ns/lrm/lrmerR10i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2000/01/rdf-schema#label> "precedes collective agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerprecedesCollectiveAgent> .
@@ -1168,7 +1168,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE8> .
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR32i> .
 <http://iflastandards.info/ns/lrm/lrmerR32> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2000/01/rdf-schema#label> "precedes work"@en .
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerprecedesWork> .
@@ -1180,7 +1180,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR19i> .
 <http://iflastandards.info/ns/lrm/lrmerR19> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2000/01/rdf-schema#label> "realizes"@en .
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerrealizes> .
@@ -1192,7 +1192,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR2> .
 <http://iflastandards.info/ns/lrm/lrmerR2i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2000/01/rdf-schema#label> "succeeds collective agent"@en .
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmersucceedsCollectiveAgent> .
@@ -1204,7 +1204,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE8> .
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR32> .
 <http://iflastandards.info/ns/lrm/lrmerR32i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2000/01/rdf-schema#label> "succeeds work"@en .
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmersucceedsWork> .
@@ -1216,7 +1216,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE2> .
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR19> .
 <http://iflastandards.info/ns/lrm/lrmerR19i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2000/01/rdf-schema#label> "was aggregated by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasAggregatedBy> .
@@ -1228,7 +1228,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE3> .
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR25i> .
 <http://iflastandards.info/ns/lrm/lrmerR25> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2000/01/rdf-schema#label> "was assigned by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasAssignedBy> .
@@ -1240,7 +1240,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR14> .
 <http://iflastandards.info/ns/lrm/lrmerR14i> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2000/01/rdf-schema#label> "was created by expression"@en .
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasCreatedByExpression> .
@@ -1252,7 +1252,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR6i> .
 <http://iflastandards.info/ns/lrm/lrmerR6> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2000/01/rdf-schema#label> "was created by manifestation"@en .
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasCreatedByManifestation> .
@@ -1264,7 +1264,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR7i> .
 <http://iflastandards.info/ns/lrm/lrmerR7> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2000/01/rdf-schema#label> "was created by work"@en .
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasCreatedByWork> .
@@ -1276,7 +1276,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR5i> .
 <http://iflastandards.info/ns/lrm/lrmerR5> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2000/01/rdf-schema#label> "was manufactured by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasManufacturedBy> .
@@ -1288,7 +1288,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR8i> .
 <http://iflastandards.info/ns/lrm/lrmerR8> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2000/01/rdf-schema#label> "was modified by"@en .
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasModifiedBy> .
@@ -1300,7 +1300,7 @@
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2000/01/rdf-schema#range> <http://iflastandards.info/ns/lrm/lrmerE6> .
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2002/07/owl#inverseOf> <http://iflastandards.info/ns/lrm/lrmerR11i> .
 <http://iflastandards.info/ns/lrm/lrmerR11> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://iflastandards.info/ns/lrm/lrmerR1> .
-<http://iflastandards.info/ns/lrm/lrmerR22i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer> .
+<http://iflastandards.info/ns/lrm/lrmerR22i> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://iflastandards.info/ns/lrm/lrmer/> .
 <http://iflastandards.info/ns/lrm/lrmerR22i> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
 <http://iflastandards.info/ns/lrm/lrmerR22i> <http://www.w3.org/2000/01/rdf-schema#label> "was transformed into"@en .
 <http://iflastandards.info/ns/lrm/lrmerR22i> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://iflastandards.info/ns/lrm/lrmerwasTransformedInto> .
