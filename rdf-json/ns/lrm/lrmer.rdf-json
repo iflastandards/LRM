@@ -115,16 +115,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R9"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/distributes"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -231,17 +231,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R2i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "realizes"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -269,16 +269,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R2"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/realizes"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -308,17 +308,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R3": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is embodied in"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -346,16 +346,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R3i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isEmbodiedIn"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isEmbodiedIn"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -385,17 +385,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E9A8": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has script"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -443,49 +443,37 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R14": {
+  "http://iflastandards.info/ns/lrm/lrmer/E9A9": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has script conversion"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "assigned"
-      }
-    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates an agent with a particular nomen that was assigned by this agent"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+        "value": "Relates a nomen to the rule, system, or standard that was used to create a nomen that is derived on the basis of another, distinct nomen notated in another, distinct script"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R14i"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/assigned"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasScriptConversion"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -497,20 +485,14 @@
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "assigned"
+        "value": "hasScriptConversion"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "In the bibliographic context, nomen assignment is applied to the creation of subject terms, controlled access points, identifiers, etc."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "A script conversion attribute value may refer to: - transliterations, - script conversions that cannot be reversed, - etc."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -521,17 +503,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R17": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is derivation nomen of"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -597,12 +579,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R36i": {
+  "http://iflastandards.info/ns/lrm/lrmer/R16": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "is part time-span of"
+        "value": "has part nomen"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -615,25 +597,31 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates two time-spans where the first is a component of the other"
+        "value": "Relates a nomen that is constructed using another nomen as a component to that component"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R36"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R16i"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartNomen"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -642,23 +630,17 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/IsPartTime-spanOf"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "IsPartTime-spanOf"
+        "value": "hasPartNomen"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "This is a relationship between two time-spans where one is a component of the other"
+        "value": "The whole-part relationship for nomens is essential in handling the attributes of components of nomens constructed using pre-existing nomens, as such attributes as language may differ between the parts of a compound nomen."
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
@@ -713,16 +695,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R11i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/wasModifiedBy"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/wasModifiedBy"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -752,17 +734,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R10": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is owned by"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -790,16 +772,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R10i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isOwnedBy"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isOwnedBy"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -867,16 +849,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R13i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasAppellation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -906,17 +888,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R12": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has as subject"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -944,16 +926,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R12i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasAsSubject"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasAsSubject"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -1166,17 +1148,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R19": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "precedes work"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1204,16 +1186,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R19i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/precedesWork"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/precedesWork"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -1242,37 +1224,49 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E9A5": {
+  "http://iflastandards.info/ns/lrm/lrmer/R18": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has part work"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "has context of use"
-      }
-    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a nomen to information as to the context(s) in which a nomen is used by the agent who is referred to through it"
+        "value": "Relates two works, where the content of the second is a component of the first"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R18i"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasContextOfUse"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartWork"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1284,14 +1278,20 @@
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasContextOfUse"
+        "value": "hasPartWork"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "The context of use attribute includes domains associated with a nomen used by an agent."
+        "value": "This applies when the component-to-whole relationship is an inherent aspect of the works and holds for all the expressions and manifestations of the larger work and of its component works, whether the expression or manifestation comprises the full larger work or just one or more (but not all) of the component works. Examples include movements of concertos, poems within poetry cycles, multipart novels, triptychs."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -1302,17 +1302,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E9A6": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has reference source"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1328,16 +1328,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasReferenceSource"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasReferenceSource"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -1419,12 +1419,66 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R4": {
+  "http://iflastandards.info/ns/lrm/lrmer/E1": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "is exemplified by"
+        "value": "Res"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Any entity in the universe of discourse"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Res"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/name": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Res"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Res (“thing” in Latin) is the top entity in the model. Res includes both material or physical things and concepts. Everything considered relevant to the bibliographic universe, which is the universe of discourse in this case, is included. Res is a superclass of all the other entities that are explicitly defined, as well as of any other entities not specifically labelled."
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/2002/07/owl#Class"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/lrm/lrmer/E3A2": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has extent of expression"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -1437,263 +1491,96 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a manifestation with any item that reflects the characteristics of that manifestation"
+        "value": "Relates an expression to a quantification of the extent of the expression"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasExtentOfExpression"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/name": [
+      {
+        "type": "literal", 
+        "value": "hasExtentOfExpression"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "The value of the extent attribute consists of three elements: - a type of extent (e.g., length of text, envisioned duration of performance of musical notation, actual duration of recorded performance, etc.), - a number, - and a measurement unit (words, minutes, etc.). The type of extent and the measurement unit may be given implicitly. The level of precision used in recording the quantification of the extent may vary."
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/lrm/lrmer/E2": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Work"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+      }, 
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R4i"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isExemplifiedBy"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "type": "literal", 
-        "value": "isExemplifiedBy"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "The logical connection serves as the basis both for identifying the manifestation exemplified by an individual item and for ensuring that all items of the same manifestation are linked to that manifestation. Indirectly the relationships between a manifestation and the various items exemplifying that manifestation also serve to establish a “sibling” relationship between the various items of a manifestation."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R20i": {
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "is accompanied or complemented by"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Relates a work to another work which is accompanied or complemented by the first work"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Source documentation has \"is accompanied / complemented by\"; slash character replaced with \"or\" to improve clarity."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R20"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isAccompaniedOrComplementedBy"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "type": "literal", 
-        "value": "isAccompaniedOrComplementedBy"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "The relationship between two works which are independent, but can also be used in conjunction with each other as complements or companions. The two works may be adding value to each other (in this case the relationship is symmetrical); in other cases one of the works is considered secondary."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R7": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "was created by manifestation"
-      }
-    ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Relates a manifestation to an agent responsible for creating the manifestation"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
+      }, 
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R7i"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/wasCreatedByManifestation"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "type": "literal", 
-        "value": "wasCreatedByManifestation"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "For a manifestation, the notion of creation broadly includes the publication process for published manifestations. The logical connection between a manifestation and a related agent serves as the basis both for identifying an agent responsible for creating a manifestation and for ensuring that all manifestations created by an agent are linked to that agent."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R16": {
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "has part nomen"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a nomen that is constructed using another nomen as a component to that component"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R16i"
+        "value": "The intellectual or artistic content of a distinct creation"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1705,32 +1592,32 @@
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartNomen"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Work"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasPartNomen"
+        "value": "Work"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "The whole-part relationship for nomens is essential in handling the attributes of components of nomens constructed using pre-existing nomens, as such attributes as language may differ between the parts of a compound nomen."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "A work is an abstract entity that permits the grouping of expressions that are considered functional equivalents or near equivalents. A work is a conceptual object, no single material object can be identified as the work. The essence of the work is the constellation of concepts and ideas that form the shared content of what we define to be expressions of the same work. A work is perceived through the identification of the commonality of content between and among various expressions. However, similarity of factual or thematic content alone is not enough to group several expressions as realizing the same instance of work. For example, two textbooks both presenting an introduction to calculus, or two oil paintings of the same view (even if painted by the same artist), would be considered distinct works if independent intellectual or artistic effort was involved in their creation. In the case of aggregating works and serial works, the essence of the work is the concept or plan for the selection, assembly and ordering of the expressions of other works to be embodied in the resulting aggregate manifestation. A work comes into existence simultaneously with the creation of its first expression, no work can exist without there being (or there having been at some point in the past) at least one expression of the work. A work can be recognized retrospectively from an examination of the individual realizations or expressions of the work. The work consists of the intellectual or artistic creation that lies behind all the various expressions of the work. As a result, the content identified with an instance of work can evolve as new expressions of it are created. Bibliographic and cultural conventions play a crucial role in determining the exact boundaries between similar instances of works. User needs are the basis for determining whether instances of expression are considered to belong to the same instance of work. When the majority of users, for most general purposes, would regard the expression instances as being intellectually equivalent, then these expressions are considered to be expressions of the same work. Generally, when a significant degree of independent intellectual or artistic effort is involved in the production of an expression, the result is viewed as a new work with a transformation relationship to the source work. Thus paraphrases, rewritings, adaptations for children, parodies, musical variations on a theme and free transcriptions of a musical composition are usually considered to represent new works. Similarly, adaptations of a work from one literary or art form to another (e.g., dramatizations, adaptations from one medium of the graphic arts to another, etc.) are considered to represent new works. Abstracts, digests and summaries are also considered to represent new works."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        "value": "http://www.w3.org/2002/07/owl#Class"
       }
     ]
   }, 
@@ -1811,7 +1698,7 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R6": {
+  "http://iflastandards.info/ns/lrm/lrmer/E3": {
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
@@ -1822,38 +1709,50 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "was created by expression"
+        "value": "Expression"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates an expression to an agent responsible for the realization of a work"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R6i"
+        "value": "A distinct combination of signs conveying intellectual or artistic content"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/wasCreatedByExpression"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Expression"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -1862,44 +1761,44 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "wasCreatedByExpression"
+        "value": "Expression"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "This relationship applies both to the creation of the original expression and any subsequent modifications such as translations, revisions and performances. An agent responsible for the intellectual or artistic content of a work is responsible for the conception of the work as an abstract entity; an agent responsible for the expression of the work is responsible for the specifics of the intellectual or artistic realization or execution of the expression. The logical connection between an expression and a related agent serves as the basis both for identifying an agent responsible for an individual expression and for ensuring that all expressions realized by an agent are linked to that agent."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "An expression is a distinct combination of signs of any form or nature (including visual, aural or gestural signs) intended to convey intellectual or artistic content and identifiable as such. The term “sign” is intended here in the meaning used in semiotics. An expression is an abstract entity distinct from the carriers used to record it. An expression is the specific intellectual or artistic form that a work takes each time it is “realized”. Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work. The boundaries of the entity expression are defined, however, so as to exclude incidental aspects of physical form, such as typeface and page layout for a text, unless, due to the nature of the work, these are integral to the intellectual or artistic realization of the work as such. An expression comes into existence simultaneously with the creation of its first manifestation, no expression can exist without there being (or there having been at some point in the past) at least one manifestation. The process of abstraction leading to the identification of the entity expression indicates that the intellectual or artistic content embodied in one manifestation is in fact the same, or substantially the same, as that embodied in another manifestation even though the physical embodiment may differ and differing attributes of the manifestations may obscure the fact that the content is similar in both. On a practical level, the degree to which bibliographic distinctions are made between variant expressions of a work will depend to some extent on the nature of the work itself, on the anticipated needs of users and on what the cataloguer can reasonably be expected to recognize from the instance of the manifestation being described. Variations within substantially the same expression (e.g., slight variations that can be noticed between two states of the same edition in the case of hand press production) would be ignored in most applications. However, for some applications of the model (e.g., comprehensive databases of early printed texts, complete listings of the states of prints), each variation may be viewed as a different expression. Inasmuch as the form of expression is an inherent characteristic of the expression, any change in form (e.g., from written notation to spoken word) results in a new expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation of a textual work from one language to another) result in the production of a new expression. If a text is revised or modified, the resulting expression is considered to be a new expression of the work. Minor changes, such as corrections of spelling and punctuation, etc., may be considered as variations within the same expression. When an expression of a work is accompanied by augmentations, such as illustrations, notes, glosses, etc. that are not integral to the intellectual or artistic realization of the work, such augmentations are considered to be separate expressions of their own separate work(s). Such augmentations may, or may not, be considered significant enough to warrant distinct bibliographic identification."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        "value": "http://www.w3.org/2002/07/owl#Class"
       }
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E5A1": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has location of item"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1915,16 +1814,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasLocationOfItem"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasLocationOfItem"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -1948,17 +1847,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E5A2": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has use rights of the item"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1974,16 +1873,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasUseRightsOfTheItem"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasUseRightsOfTheItem"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -2076,12 +1975,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R1": {
+  "http://iflastandards.info/ns/lrm/lrmer/E4": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "is associated with res"
+        "value": "Manifestation"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -2090,29 +1989,41 @@
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }
+    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates two res that have an association of any kind"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isAssociatedWithRes"
+        "value": "A set of all carriers that are assumed to share the same characteristics as to intellectual or artistic content and aspects of physical form. That set is defined by both the overall content and the production plan for its carrier or carriers"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -2121,39 +2032,50 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Manifestation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
-        "lang": "en", 
         "type": "literal", 
-        "value": "isAssociatedWithRes"
+        "value": "Manifestation"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "This is a general relationship valid for all entities in the bibliographic universe. In general, specific refinements would be defined to carry more precise semantics."
+        "value": "A manifestation results from the capture of one or more expressions onto a carrier or set of carriers. As an entity, manifestation represents the common characteristics shared by those carriers, in respect to both intellectual or artistic content and physical form. A manifestation is recognized from the common characteristics exhibited by the items resulting from the same production process. The specification of the production process is an intrinsic part of the manifestation. The production may be explicitly planned so as to take place over time, as, for example, in printing on demand. The production plan may involve aspects that are not under the direct control of the producer, such as the specific digital storage media onto which an online file is downloaded by different end-users. Whatever storage media is used, the downloaded files are instances of the same manifestation as the online file. Production processes cover the range from formal industrial processes to artisanal or artistic processes. A production process may result in a set of multiple items that are interchangeable for most purposes. The manifestation can be defined by the specific properties and attributes that any item belonging to that manifestation should portray. In other cases, such as for holograph manuscripts, many artisanal or artistic productions or reproductions for preservation purposes, the intention is that the production process result in a single, unique item. The manifestation in this case is the singleton set (a set with a single member) that captures the idea of the item in question. The boundaries between one manifestation and another are drawn on the basis of both intellectual or artistic content and physical form. When the production process involves changes in physical form, the resulting product is considered a new manifestation. Changes in physical form include changes affecting display characteristics that are incidental to the conception of the work (e.g., a change in typeface, size of font, page layout, etc.), changes in physical medium (e.g., a change from paper to microfilm as the medium of conveyance), and changes in the container (e.g., a change from cassette to cartridge as the container for a tape). Where the production process involves a publisher, producer, distributor, etc., and there are changes signalled in the product that are related to publication, marketing, etc. (e.g., a change in publisher, repackaging, etc.), the resulting product may be considered a new manifestation. Whenever the production process involves modifications, additions, deletions, etc. (other than minor changes to spelling, punctuation, etc.) that affect the intellectual or artistic content, the result is a new expression of the work which is embodied in a new manifestation. On a practical level, the degree to which distinctions between manifestations are accounted for in catalogues will depend to some extent on the anticipated needs of users and on the differences that the cataloguer can reasonably be expected to recognize. Certain minor variations or differences in packaging may not be considered bibliographically significant and will not warrant the recognition of a new manifestation. Changes that occur deliberately or inadvertently during the production process that affect the items result, strictly speaking, in a new manifestation of the same expression. A manifestation resulting from such a change may be identified as a particular “state” or “issue” of the publication. Changes that occur to an individual item after the production process is complete (damage, wear and tear, the loss of a page, repairs, rebinding into multiple volumes, etc.) are not considered to result in a new manifestation. That item is simply considered to be an exemplar of the manifestation that no longer fully reflects the original production plan. However, when multiple items from different manifestations are physically combined or joined (books or pamphlets bound together, audio tapes spliced together, etc.) the result is a new singleton manifestation."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        "value": "http://www.w3.org/2002/07/owl#Class"
       }
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R27i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is reproduction manifestation of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -2181,16 +2103,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R27"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isReproductionManifestationOf"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isReproductionManifestationOf"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -2220,17 +2142,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R5": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "was created by work"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -2258,16 +2180,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R5i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/wasCreatedByWork"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -2296,198 +2218,120 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E1": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
+  "http://iflastandards.info/ns/lrm/lrmer/R4": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Res"
+        "value": "is exemplified by"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Any entity in the universe of discourse"
+        "value": "Relates a manifestation with any item that reflects the characteristics of that manifestation"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Res"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Res"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Res (“thing” in Latin) is the top entity in the model. Res includes both material or physical things and concepts. Everything considered relevant to the bibliographic universe, which is the universe of discourse in this case, is included. Res is a superclass of all the other entities that are explicitly defined, as well as of any other entities not specifically labelled."
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2002/07/owl#Class"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E2": {
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Work"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#disjointWith": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
-      }, 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }
     ], 
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "The intellectual or artistic content of a distinct creation"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Work"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/name": [
-      {
-        "type": "literal", 
-        "value": "Work"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "A work is an abstract entity that permits the grouping of expressions that are considered functional equivalents or near equivalents. A work is a conceptual object, no single material object can be identified as the work. The essence of the work is the constellation of concepts and ideas that form the shared content of what we define to be expressions of the same work. A work is perceived through the identification of the commonality of content between and among various expressions. However, similarity of factual or thematic content alone is not enough to group several expressions as realizing the same instance of work. For example, two textbooks both presenting an introduction to calculus, or two oil paintings of the same view (even if painted by the same artist), would be considered distinct works if independent intellectual or artistic effort was involved in their creation. In the case of aggregating works and serial works, the essence of the work is the concept or plan for the selection, assembly and ordering of the expressions of other works to be embodied in the resulting aggregate manifestation. A work comes into existence simultaneously with the creation of its first expression, no work can exist without there being (or there having been at some point in the past) at least one expression of the work. A work can be recognized retrospectively from an examination of the individual realizations or expressions of the work. The work consists of the intellectual or artistic creation that lies behind all the various expressions of the work. As a result, the content identified with an instance of work can evolve as new expressions of it are created. Bibliographic and cultural conventions play a crucial role in determining the exact boundaries between similar instances of works. User needs are the basis for determining whether instances of expression are considered to belong to the same instance of work. When the majority of users, for most general purposes, would regard the expression instances as being intellectually equivalent, then these expressions are considered to be expressions of the same work. Generally, when a significant degree of independent intellectual or artistic effort is involved in the production of an expression, the result is viewed as a new work with a transformation relationship to the source work. Thus paraphrases, rewritings, adaptations for children, parodies, musical variations on a theme and free transcriptions of a musical composition are usually considered to represent new works. Similarly, adaptations of a work from one literary or art form to another (e.g., dramatizations, adaptations from one medium of the graphic arts to another, etc.) are considered to represent new works. Abstracts, digests and summaries are also considered to represent new works."
-      }
-    ], 
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
-      {
-        "type": "uri", 
-        "value": "http://www.w3.org/2002/07/owl#Class"
-      }
-    ]
-  }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E3": {
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "Expression"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#disjointWith": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }, 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R4i"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isExemplifiedBy"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/name": [
+      {
+        "type": "literal", 
+        "value": "isExemplifiedBy"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "The logical connection serves as the basis both for identifying the manifestation exemplified by an individual item and for ensuring that all items of the same manifestation are linked to that manifestation. Indirectly the relationships between a manifestation and the various items exemplifying that manifestation also serve to establish a “sibling” relationship between the various items of a manifestation."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/lrm/lrmer/R7": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "was created by manifestation"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "A distinct combination of signs conveying intellectual or artistic content"
+        "value": "Relates a manifestation to an agent responsible for creating the manifestation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R7i"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -2499,36 +2343,113 @@
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Expression"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/wasCreatedByManifestation"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "Expression"
+        "value": "wasCreatedByManifestation"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "An expression is a distinct combination of signs of any form or nature (including visual, aural or gestural signs) intended to convey intellectual or artistic content and identifiable as such. The term “sign” is intended here in the meaning used in semiotics. An expression is an abstract entity distinct from the carriers used to record it. An expression is the specific intellectual or artistic form that a work takes each time it is “realized”. Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work. The boundaries of the entity expression are defined, however, so as to exclude incidental aspects of physical form, such as typeface and page layout for a text, unless, due to the nature of the work, these are integral to the intellectual or artistic realization of the work as such. An expression comes into existence simultaneously with the creation of its first manifestation, no expression can exist without there being (or there having been at some point in the past) at least one manifestation. The process of abstraction leading to the identification of the entity expression indicates that the intellectual or artistic content embodied in one manifestation is in fact the same, or substantially the same, as that embodied in another manifestation even though the physical embodiment may differ and differing attributes of the manifestations may obscure the fact that the content is similar in both. On a practical level, the degree to which bibliographic distinctions are made between variant expressions of a work will depend to some extent on the nature of the work itself, on the anticipated needs of users and on what the cataloguer can reasonably be expected to recognize from the instance of the manifestation being described. Variations within substantially the same expression (e.g., slight variations that can be noticed between two states of the same edition in the case of hand press production) would be ignored in most applications. However, for some applications of the model (e.g., comprehensive databases of early printed texts, complete listings of the states of prints), each variation may be viewed as a different expression. Inasmuch as the form of expression is an inherent characteristic of the expression, any change in form (e.g., from written notation to spoken word) results in a new expression. Similarly, changes in the intellectual conventions or instruments that are employed to express a work (e.g., translation of a textual work from one language to another) result in the production of a new expression. If a text is revised or modified, the resulting expression is considered to be a new expression of the work. Minor changes, such as corrections of spelling and punctuation, etc., may be considered as variations within the same expression. When an expression of a work is accompanied by augmentations, such as illustrations, notes, glosses, etc. that are not integral to the intellectual or artistic realization of the work, such augmentations are considered to be separate expressions of their own separate work(s). Such augmentations may, or may not, be considered significant enough to warrant distinct bibliographic identification."
+        "value": "For a manifestation, the notion of creation broadly includes the publication process for published manifestations. The logical connection between a manifestation and a related agent serves as the basis both for identifying an agent responsible for creating a manifestation and for ensuring that all manifestations created by an agent are linked to that agent."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2002/07/owl#Class"
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E4": {
+  "http://iflastandards.info/ns/lrm/lrmer/R6": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "was created by expression"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Relates an expression to an agent responsible for the realization of a work"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R6i"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/wasCreatedByExpression"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/name": [
+      {
+        "type": "literal", 
+        "value": "wasCreatedByExpression"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "This relationship applies both to the creation of the original expression and any subsequent modifications such as translations, revisions and performances. An agent responsible for the intellectual or artistic content of a work is responsible for the conception of the work as an abstract entity; an agent responsible for the expression of the work is responsible for the specifics of the intellectual or artistic realization or execution of the expression. The logical connection between an expression and a related agent serves as the basis both for identifying an agent responsible for an individual expression and for ensuring that all expressions realized by an agent are linked to that agent."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ]
+  }, 
+  "http://iflastandards.info/ns/lrm/lrmer/R1": {
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
@@ -2539,50 +2460,26 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Manifestation"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#disjointWith": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+        "value": "is associated with res"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "A set of all carriers that are assumed to share the same characteristics as to intellectual or artistic content and aspects of physical form. That set is defined by both the overall content and the production plan for its carrier or carriers"
+        "value": "Relates two res that have an association of any kind"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+    "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Manifestation"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -2591,39 +2488,34 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isAssociatedWithRes"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
+        "lang": "en", 
         "type": "literal", 
-        "value": "Manifestation"
+        "value": "isAssociatedWithRes"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "A manifestation results from the capture of one or more expressions onto a carrier or set of carriers. As an entity, manifestation represents the common characteristics shared by those carriers, in respect to both intellectual or artistic content and physical form. A manifestation is recognized from the common characteristics exhibited by the items resulting from the same production process. The specification of the production process is an intrinsic part of the manifestation. The production may be explicitly planned so as to take place over time, as, for example, in printing on demand. The production plan may involve aspects that are not under the direct control of the producer, such as the specific digital storage media onto which an online file is downloaded by different end-users. Whatever storage media is used, the downloaded files are instances of the same manifestation as the online file. Production processes cover the range from formal industrial processes to artisanal or artistic processes. A production process may result in a set of multiple items that are interchangeable for most purposes. The manifestation can be defined by the specific properties and attributes that any item belonging to that manifestation should portray. In other cases, such as for holograph manuscripts, many artisanal or artistic productions or reproductions for preservation purposes, the intention is that the production process result in a single, unique item. The manifestation in this case is the singleton set (a set with a single member) that captures the idea of the item in question. The boundaries between one manifestation and another are drawn on the basis of both intellectual or artistic content and physical form. When the production process involves changes in physical form, the resulting product is considered a new manifestation. Changes in physical form include changes affecting display characteristics that are incidental to the conception of the work (e.g., a change in typeface, size of font, page layout, etc.), changes in physical medium (e.g., a change from paper to microfilm as the medium of conveyance), and changes in the container (e.g., a change from cassette to cartridge as the container for a tape). Where the production process involves a publisher, producer, distributor, etc., and there are changes signalled in the product that are related to publication, marketing, etc. (e.g., a change in publisher, repackaging, etc.), the resulting product may be considered a new manifestation. Whenever the production process involves modifications, additions, deletions, etc. (other than minor changes to spelling, punctuation, etc.) that affect the intellectual or artistic content, the result is a new expression of the work which is embodied in a new manifestation. On a practical level, the degree to which distinctions between manifestations are accounted for in catalogues will depend to some extent on the anticipated needs of users and on the differences that the cataloguer can reasonably be expected to recognize. Certain minor variations or differences in packaging may not be considered bibliographically significant and will not warrant the recognition of a new manifestation. Changes that occur deliberately or inadvertently during the production process that affect the items result, strictly speaking, in a new manifestation of the same expression. A manifestation resulting from such a change may be identified as a particular “state” or “issue” of the publication. Changes that occur to an individual item after the production process is complete (damage, wear and tear, the loss of a page, repairs, rebinding into multiple volumes, etc.) are not considered to result in a new manifestation. That item is simply considered to be an exemplar of the manifestation that no longer fully reflects the original production plan. However, when multiple items from different manifestations are physically combined or joined (books or pamphlets bound together, audio tapes spliced together, etc.) the result is a new singleton manifestation."
+        "value": "This is a general relationship valid for all entities in the bibliographic universe. In general, specific refinements would be defined to carry more precise semantics."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2002/07/owl#Class"
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
       }
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E5": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
@@ -2631,10 +2523,28 @@
         "value": "Item"
       }
     ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
         "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }, 
+      {
+        "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }, 
       {
         "type": "uri", 
@@ -2646,19 +2556,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }, 
-      {
-        "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -2668,16 +2566,16 @@
         "value": "An object or objects carrying signs intended to convey intellectual or artistic content"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/Item"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
@@ -2723,7 +2621,7 @@
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }, 
       {
         "type": "uri", 
@@ -2731,7 +2629,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
       }, 
       {
         "type": "uri", 
@@ -2739,7 +2637,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }, 
       {
         "type": "uri", 
@@ -2747,7 +2645,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -2757,16 +2655,16 @@
         "value": "An entity capable of deliberate actions, of being granted rights, and of being held accountable for its actions"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Agent"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Agent"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
@@ -2795,12 +2693,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E7": {
+  "http://iflastandards.info/ns/lrm/lrmer/R2": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Person"
+        "value": "is realized through"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -2809,23 +2707,29 @@
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
-    "http://www.w3.org/2002/07/owl#disjointWith": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E8"
-      }
-    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "An individual human being"
+        "value": "Relates a work with any of the expressions which convey the same intellectual or artistic content"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+    "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/Person"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R2i"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -2834,44 +2738,50 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isRealizedThrough"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "Person"
+        "value": "isRealizedThrough"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "The entity person is restricted to real persons who live or are assumed to have lived. Strict proof of the existence of a person is not required, as long as there is a general acceptance of their probable historicity. However, figures generally considered fictional (for example, Kermit the Frog), literary (for example, Miss Jane Marple) or purely legendary (for example, the wizard Merlin) are not instances of the entity person."
+        "value": "The logical connection between work and expression, as reflected in the model through this relationship, serves as the basis both for identifying the work represented by an individual expression and for ensuring that all expressions of a work are linked to the work. Indirectly the relationships between a work and the various expressions of that work also serve to establish a “sibling” relationship between the various expressions of the work."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/2002/07/owl#Class"
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
       }
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E8": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "Collective Agent"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -2926,17 +2836,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E9": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "Nomen"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -2954,7 +2864,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }, 
       {
         "type": "uri", 
@@ -2962,11 +2872,11 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -2976,16 +2886,16 @@
         "value": "An association between an entity and a designation that refers to it"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/Nomen"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
@@ -3014,7 +2924,7 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R2": {
+  "http://iflastandards.info/ns/lrm/lrmer/E7": {
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
@@ -3025,38 +2935,26 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "is realized through"
+        "value": "Person"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E8"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a work with any of the expressions which convey the same intellectual or artistic content"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#domain": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R2i"
+        "value": "An individual human being"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isRealizedThrough"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/Person"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -3065,29 +2963,29 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "isRealizedThrough"
+        "value": "Person"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "The logical connection between work and expression, as reflected in the model through this relationship, serves as the basis both for identifying the work represented by an individual expression and for ensuring that all expressions of a work are linked to the work. Indirectly the relationships between a work and the various expressions of that work also serve to establish a “sibling” relationship between the various expressions of the work."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "The entity person is restricted to real persons who live or are assumed to have lived. Strict proof of the existence of a person is not required, as long as there is a general acceptance of their probable historicity. However, figures generally considered fictional (for example, Kermit the Frog), literary (for example, Miss Jane Marple) or purely legendary (for example, the wizard Merlin) are not instances of the entity person."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
       {
         "type": "uri", 
-        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+        "value": "http://www.w3.org/2002/07/owl#Class"
       }
     ]
   }, 
@@ -3169,17 +3067,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R8": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "was manufactured by"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3207,16 +3105,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R8i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/wasManufacturedBy"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -3246,17 +3144,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R20": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "accompanies or complements"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3291,16 +3189,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R20i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/accompaniesOrComplements"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/accompaniesOrComplements"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -3329,12 +3227,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E1A1": {
+  "http://iflastandards.info/ns/lrm/lrmer/R21": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "has category of res"
+        "value": "is inspiration for"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -3347,13 +3245,31 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a res to a type to which the res belongs"
+        "value": "Relates two works where the content of the first served as the source of ideas for the second"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R21i"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isInspirationFor"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -3362,16 +3278,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasCategoryOfRes"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasCategoryOfRes"
+        "value": "isInspirationFor"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -3382,17 +3298,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R22": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is a transformation of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3420,16 +3336,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R22i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isATransformationOf"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isATransformationOf"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -3459,17 +3375,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R23": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has part expression"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3536,17 +3452,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R24": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is derivation expression of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3690,17 +3606,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R26": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has part manifestation"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3728,16 +3644,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R26i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartManifestation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -3921,17 +3837,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R29": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has alternate"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -3992,17 +3908,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R10i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "owns"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4107,16 +4023,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R7"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/createdManifestation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -4146,17 +4062,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R26i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is part manifestation of"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4222,43 +4138,31 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R21": {
+  "http://iflastandards.info/ns/lrm/lrmer/E1A1": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has category of res"
+      }
+    ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "is inspiration for"
-      }
-    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates two works where the content of the first served as the source of ideas for the second"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+        "value": "Relates a res to a type to which the res belongs"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }
-    ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R21i"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E1"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -4270,19 +4174,13 @@
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isInspirationFor"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasCategoryOfRes"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "isInspirationFor"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "hasCategoryOfRes"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -4308,17 +4206,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E1A2": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has note"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4360,17 +4258,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R34i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is part place of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4398,16 +4296,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R34"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isPartPlaceOf"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isPartPlaceOf"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -4437,17 +4335,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R18i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is part work of"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4514,17 +4412,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R19i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "succeeds work"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4591,17 +4489,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R21i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is inspired by"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4699,16 +4597,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R11"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/modified"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -4738,17 +4636,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R6i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "created expression"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4776,16 +4674,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R6"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/createdExpression"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -4841,16 +4739,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasUseRightsOfTheManifestation"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasUseRightsOfTheManifestation"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -4874,17 +4772,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E6A3": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has language of agent"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -4959,16 +4857,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasFieldOfActivity"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasFieldOfActivity"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5037,17 +4935,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R35i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is associated with time-span"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -5114,17 +5012,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E3A8": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has medium of performance"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -5199,16 +5097,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasLanguageOfExpression"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5258,16 +5156,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasKey"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5343,17 +5241,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E3A5": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has cartographic scale"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -5369,16 +5267,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasCartographicScale"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasCartographicScale"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5401,12 +5299,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E3A2": {
+  "http://iflastandards.info/ns/lrm/lrmer/R20i": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "has extent of expression"
+        "value": "is accompanied or complemented by"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -5419,13 +5317,32 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates an expression to a quantification of the extent of the expression"
+        "value": "Relates a work to another work which is accompanied or complemented by the first work"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Source documentation has \"is accompanied / complemented by\"; slash character replaced with \"or\" to improve clarity."
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R20"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -5437,20 +5354,26 @@
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasExtentOfExpression"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isAccompaniedOrComplementedBy"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasExtentOfExpression"
+        "value": "isAccompaniedOrComplementedBy"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "The value of the extent attribute consists of three elements: - a type of extent (e.g., length of text, envisioned duration of performance of musical notation, actual duration of recorded performance, etc.), - a number, - and a measurement unit (words, minutes, etc.). The type of extent and the measurement unit may be given implicitly. The level of precision used in recording the quantification of the extent may vary."
+        "value": "The relationship between two works which are independent, but can also be used in conjunction with each other as complements or companions. The two works may be adding value to each other (in this case the relationship is symmetrical); in other cases one of the works is considered secondary."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -5546,16 +5469,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasCategoryOfExpression"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5623,16 +5546,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R12"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/isSubjectOf"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5662,17 +5585,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R15": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is equivalent to"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -5694,16 +5617,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isEquivalentTo"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isEquivalentTo"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5732,12 +5655,12 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/E9A9": {
+  "http://iflastandards.info/ns/lrm/lrmer/R14": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "has script conversion"
+        "value": "assigned"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/status": [
@@ -5750,13 +5673,31 @@
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates a nomen to the rule, system, or standard that was used to create a nomen that is derived on the basis of another, distinct nomen notated in another, distinct script"
+        "value": "Relates an agent with a particular nomen that was assigned by this agent"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E6"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R14i"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/assigned"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -5765,23 +5706,23 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasScriptConversion"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasScriptConversion"
+        "value": "assigned"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "A script conversion attribute value may refer to: - transliterations, - script conversions that cannot be reversed, - etc."
+        "value": "In the bibliographic context, nomen assignment is applied to the creation of subject terms, controlled access points, identifiers, etc."
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -5877,16 +5818,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasBeginning"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasBeginning"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -5987,17 +5928,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R32i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "succeeds collective agent"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6025,16 +5966,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R32"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/succeedsCollectiveAgent"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6064,17 +6005,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R33i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is associated with place"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6102,16 +6043,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R33"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/isAssociatedWithPlace"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6141,17 +6082,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R23i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is part expression of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6179,16 +6120,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R23"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/isPartExpressionOf"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6218,17 +6159,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R13i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "is appellation of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6405,16 +6346,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E7"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasProfessionOrOccupation"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6431,17 +6372,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E9A4": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has intended audience of nomen"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6457,16 +6398,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasIntendedAudienceOfNomen"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasIntendedAudienceOfNomen"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6489,43 +6430,37 @@
       }
     ]
   }, 
-  "http://iflastandards.info/ns/lrm/lrmer/R18": {
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "lang": "en", 
-        "type": "literal", 
-        "value": "has part work"
-      }
-    ], 
+  "http://iflastandards.info/ns/lrm/lrmer/E9A5": {
     "http://metadataregistry.org/uri/profile/regap/status": [
       {
         "type": "uri", 
         "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "has context of use"
+      }
+    ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "Relates two works, where the content of the second is a component of the first"
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#range": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+        "value": "Relates a nomen to information as to the context(s) in which a nomen is used by the agent who is referred to through it"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
       }
     ], 
-    "http://www.w3.org/2002/07/owl#inverseOf": [
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R18i"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasContextOfUse"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -6534,29 +6469,17 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartWork"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
       {
         "type": "literal", 
-        "value": "hasPartWork"
+        "value": "hasContextOfUse"
       }
     ], 
     "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
         "lang": "en", 
         "type": "literal", 
-        "value": "This applies when the component-to-whole relationship is an inherent aspect of the works and holds for all the expressions and manifestations of the larger work and of its component works, whether the expression or manifestation comprises the full larger work or just one or more (but not all) of the component works. Examples include movements of concertos, poems within poetry cycles, multipart novels, triptychs."
-      }
-    ], 
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+        "value": "The context of use attribute includes domains associated with a nomen used by an agent."
       }
     ], 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
@@ -6589,17 +6512,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R30i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has member"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6692,16 +6615,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasRepresentativeExpressionAttribute"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasRepresentativeExpressionAttribute"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6828,16 +6751,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R14"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/wasAssignedBy"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/wasAssignedBy"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -6867,17 +6790,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R22i": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "was transformed into"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6944,17 +6867,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R4i": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "exemplifies"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -6982,16 +6905,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R4"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/exemplifies"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/exemplifies"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7047,16 +6970,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E10"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasLocationOfPlace"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7215,17 +7138,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R35": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has association with time-span"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -7253,16 +7176,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R35i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/HasAssociationWithTime-span"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7292,17 +7215,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R34": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has part place"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -7330,16 +7253,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R34i"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartPlace"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7446,17 +7369,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/R32": {
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "precedes collective agent"
-      }
-    ], 
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -7561,16 +7484,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R31i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartCollectiveAgent"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasPartCollectiveAgent"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7638,16 +7561,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R30i"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isMemberOf"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isMemberOf"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7715,16 +7638,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/R31"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/isPartCollectiveAgentOf"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/isPartCollectiveAgentOf"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -7819,17 +7742,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E4A3": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "has intended audience of manifestation"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -7904,16 +7827,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
-    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/hasExtentOfManifestation"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/hasExtentOfManifestation"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -8022,16 +7945,16 @@
         "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }
     ], 
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer"
-      }
-    ], 
     "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
       {
         "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/hasManifestationStatement"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
       }
     ], 
     "http://metadataregistry.org/uri/profile/regap/name": [
@@ -8208,6 +8131,83 @@
       }
     ]
   }, 
+  "http://iflastandards.info/ns/lrm/lrmer/R36i": {
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "is part time-span of"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
+      }
+    ], 
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "Relates two time-spans where the first is a component of the other"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }
+    ], 
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R36"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/lexicalAlias": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/IsPartTime-spanOf"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/name": [
+      {
+        "type": "literal", 
+        "value": "IsPartTime-spanOf"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "lang": "en", 
+        "type": "literal", 
+        "value": "This is a relationship between two time-spans where one is a component of the other"
+      }
+    ], 
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/R1"
+      }
+    ], 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      {
+        "type": "uri", 
+        "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+      }
+    ]
+  }, 
   "http://iflastandards.info/ns/lrm/lrmer/E10": {
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
@@ -8225,11 +8225,7 @@
     "http://www.w3.org/2002/07/owl#disjointWith": [
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }, 
       {
         "type": "uri", 
@@ -8237,7 +8233,7 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
       }, 
       {
         "type": "uri", 
@@ -8249,7 +8245,11 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E11"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -8298,17 +8298,17 @@
     ]
   }, 
   "http://iflastandards.info/ns/lrm/lrmer/E11": {
-    "http://metadataregistry.org/uri/profile/regap/status": [
-      {
-        "type": "uri", 
-        "value": "http://metadataregistry.org/uri/RegStatus/1001"
-      }
-    ], 
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "lang": "en", 
         "type": "literal", 
         "value": "Time-span"
+      }
+    ], 
+    "http://metadataregistry.org/uri/profile/regap/status": [
+      {
+        "type": "uri", 
+        "value": "http://metadataregistry.org/uri/RegStatus/1001"
       }
     ], 
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -8318,19 +8318,11 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
-      }, 
-      {
-        "type": "uri", 
         "value": "http://iflastandards.info/ns/lrm/lrmer/E3"
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
-      }, 
-      {
-        "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
       }, 
       {
         "type": "uri", 
@@ -8338,7 +8330,15 @@
       }, 
       {
         "type": "uri", 
-        "value": "http://iflastandards.info/ns/lrm/lrmer/E4"
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E9"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E2"
+      }, 
+      {
+        "type": "uri", 
+        "value": "http://iflastandards.info/ns/lrm/lrmer/E5"
       }
     ], 
     "http://www.w3.org/2004/02/skos/core#definition": [
